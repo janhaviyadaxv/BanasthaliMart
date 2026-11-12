@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Banasthali Mart v3.0 | Campus Buy & Sell Marketplace</title>
+  <meta name="description" content="Campus Buy & Sell Marketplace for Banasthali Vidyapith students. Built in C++ OOPs, running live online forever.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%3E<text y=%2226%22 font-size=%2224%22>🛒</text></svg>">
+</head>
+<body>
+
+  <!-- Top Navigation Bar -->
+  <header class="top-nav">
+    <div class="brand-badge">
+      <span class="dot"></span>
+      <span>Banasthali Mart v3.0</span>
+    </div>
+    <div class="nav-actions">
+      <button id="soundToggle" class="btn-pill" title="Toggle audio feedback">🔊 Sound: On</button>
+      <button id="exportDataBtn" class="btn-pill" title="Export database to JSON file">💾 Export Data</button>
+      <button id="resetDataBtn" class="btn-pill" title="Reset marketplace demo data">🔄 Reset Data</button>
+    </div>
+  </header>
+
+  <!-- Terminal Window -->
+  <main class="terminal-window">
+    <div class="terminal-titlebar">
+      <div class="window-controls">
+        <span class="control-dot dot-red"></span>
+        <span class="control-dot dot-yellow"></span>
+        <span class="control-dot dot-green"></span>
+      </div>
+      <div class="title-text">BanasthaliMart.exe — DOS / CP437 Console (C++98)</div>
+      <div class="badge-tag">24/7 Free Live</div>
+    </div>
+
+    <!-- Terminal Screen Display -->
+    <div class="terminal-screen" id="terminalScreen">
+      <!-- Generated dynamically by app.js -->
+    </div>
+
+    <!-- CRT Scanline Effect -->
+    <div class="crt-overlay"></div>
+
+    <!-- Interactive Command Input -->
+    <div class="input-row" style="background: #090d14; padding: 10px 20px; border-top: 1px solid #1f293d;">
+      <span class="input-prompt" id="inputPrompt">&nbsp;&nbsp;Your Choice&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: </span>
+      <input type="text" id="terminalInput" class="terminal-input" autocomplete="off" spellcheck="false" autofocus placeholder="Type choice and press Enter...">
+    </div>
+
+    <!-- Mobile-Friendly Quick Action Buttons -->
+    <div class="action-pad" id="actionPad">
+      <!-- Filled dynamically by app.js -->
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div>Designed &amp; Developed for <strong>Banasthali Vidyapith</strong> by <strong>Janhavi Yadav</strong></div>
+    <div>100% Free &amp; Permanent Web Terminal Edition &bull; Hosted on GitHub Pages</div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

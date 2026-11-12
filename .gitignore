@@ -1,0 +1,10 @@
+# Binaries & Executables
+*.exe
+*.o
+*.obj
+*.out
+
+# Editor & Temp
+.vscode/
+*.log
+*.tmp

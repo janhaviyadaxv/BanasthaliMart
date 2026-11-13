@@ -268,7 +268,7 @@
 
       this.dMid('c-bylw');
       this.dRow(`  ${ICO_DIAMOND}  Language : C++98         ${ICO_DIAMOND}  Version : 3.0           ${ICO_DIAMOND}  College : Banasthali Vidyapith`, 'c-bylw', 'c-gry');
-      this.dRow(`  ${ICO_STAR}  Features : Login | Password | My Products | Buy/Sell | Search | Web Edition`, 'c-bylw', 'c-bwht');
+      this.dRow(`  ${ICO_STAR}  Features : Login | Password | My Products | Buy/Sell | Search | Colors`, 'c-bylw', 'c-bwht');
       this.dEmpty('c-bylw');
       this.dBot('c-bylw');
       this.println('  ' + rep(ICO_SHADE3, SW), 'c-gry');

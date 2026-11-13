@@ -1,70 +1,47 @@
-# 🛒 Banasthali Mart v3.0
+# Banasthali Mart
 
-> **Campus Buy & Sell Marketplace System**  
-> Specially designed & developed for **Banasthali Vidyapith** students by **Janhavi Yadav**.
+A campus marketplace system developed for students of **Banasthali Vidyapith** to buy and sell second-hand academic essentials—including textbooks, engineering instruments (drafters, calculators), lab coats, and hostel stationery.
 
-[![GitHub Pages](https://img.shields.io/badge/Live-GitHub%20Pages-brightgreen?logo=github)](https://pages.github.com/)
-[![Language](https://img.shields.io/badge/Core-C%2B%2B98%20%2F%20Web-blue?logo=c%2B%2B)](main.cpp)
-[![Hosting](https://img.shields.io/badge/Hosting-100%25%20Free%20Forever-success)](#)
-
----
-
-## 🌟 Highlights
-- **100% Free Forever**: Hosted on GitHub Pages with zero server costs, zero maintenance, and 24/7 permanent uptime.
-- **Dual Edition**:
-  1. **Web Terminal Edition** (`index.html`): Runs immediately on any device (Phone, Tablet, Laptop) in any browser with authentic retro CRT / CP437 box-drawing aesthetics.
-  2. **Native C++ Console Edition** (`main.cpp`): Pure C++ OOPs project compiled with `g++` on Windows.
-- **Full Marketplace Features**:
-  - 🎓 Student Registration with Mandatory Password Authentication
-  - 🔐 Secure Login Session Management
-  - 📦 Browse Available & Sold Products in Real-Time
-  - 💰 Buy Products with Automatic Receipt Generation
-  - 🏷️ Sell / List Products with Custom Pricing
-  - 🔍 Keyword Search Engine
-  - 📊 Personal Storefront & Sales Ratio Analytics
-  - 📖 Banasthali Student Directory
-  - 🔄 Change Password & Profile Management
+- **Developer:** Janhavi Yadav  
+- **Institution:** Banasthali Vidyapith  
+- **Live Link:** [https://janhaviyadaxv.github.io/BanasthaliMart/](https://janhaviyadaxv.github.io/BanasthaliMart/)
 
 ---
 
-## 🚀 How to Run Locally
+## Features
 
-### 1. Web Terminal (Zero Setup)
-Simply double-click `index.html` in your file explorer to open it in Chrome, Edge, Safari, or Firefox!
+- **User Authentication:** Student registration with ID, contact info, and mandatory password verification.
+- **Product Catalog:** Real-time listing of available and sold products with pricing and seller IDs.
+- **Buy & Sell Workflows:**
+  - Students can list new items with custom pricing.
+  - Purchase items directly with automated receipt generation.
+  - Built-in validation prevents buying one's own products or already sold items.
+- **Search:** Keyword search across all product listings.
+- **Personal Storefront:** Track your own active listings, sold items, and total revenue.
+- **Student Directory:** View registered students and contact details.
+- **Account Management:** Change password and update profile.
 
-Or start a local server:
-```bash
-python -m http.server 8000
-```
-Then visit: `http://localhost:8000`
+---
 
-### 2. Pure C++ Console Edition (Windows)
-Double-click `run.bat` or compile via MinGW `g++`:
-```powershell
+## Tech Stack
+
+- **Core Program:** C++ (Object-Oriented Programming: classes, file handling, vectors, streams, data persistence).
+- **Web Interface:** HTML5, CSS3, JavaScript (CP437 terminal theme, responsive controls, client-side storage).
+
+---
+
+## Running the Project
+
+### 1. Web Version (Online)
+Visit the live deployment directly in any web browser:  
+👉 **[https://janhaviyadaxv.github.io/BanasthaliMart/](https://janhaviyadaxv.github.io/BanasthaliMart/)**
+
+### 2. C++ Console Application (Windows)
+To compile and run the source code locally using MinGW `g++`:
+
+```cmd
 g++ -O2 main.cpp -o BanasthaliMart.exe
-.\BanasthaliMart.exe
+BanasthaliMart.exe
 ```
 
----
-
-## 🌐 Deploy Live to GitHub Pages (In 3 Simple Steps)
-
-1. **Create a new repository on GitHub** (e.g. `BanasthaliMart`).
-2. **Push this workspace**:
-   ```powershell
-   git init
-   git add .
-   git commit -m "Initial commit: Banasthali Mart v3.0"
-   git branch -M main
-   git remote add origin https://github.com/<YOUR_USERNAME>/BanasthaliMart.git
-   git push -u origin main
-   ```
-3. In your GitHub repository:
-   * Go to **Settings** > **Pages**
-   * Under **Build and deployment** > **Source**, choose **GitHub Actions**
-   * Your site is now live forever at `https://<YOUR_USERNAME>.github.io/BanasthaliMart/`! 🎉
-
----
-
-## 📜 Credits & License
-Created with ❤️ by **Janhavi Yadav** for **Banasthali Vidyapith**.
+Alternatively, double-click `run.bat` to compile and launch in an interactive Windows command window.

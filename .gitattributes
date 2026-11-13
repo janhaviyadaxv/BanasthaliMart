@@ -1,0 +1,7 @@
+# GitHub Linguist language overrides
+# Keep repository categorized as pure C++ project
+app.js linguist-vendored
+styles.css linguist-vendored
+index.html linguist-vendored
+run.bat linguist-vendored
+Makefile linguist-vendored

@@ -1,7 +1,7 @@
-# GitHub Linguist Language Configuration
-# Ensures repository is classified as 100% / >90% C++
-*.js linguist-detectable=false linguist-vendored=true
-*.css linguist-detectable=false linguist-vendored=true
-*.html linguist-detectable=false linguist-vendored=true
-*.bat linguist-detectable=false linguist-vendored=true
-Makefile linguist-detectable=false linguist-vendored=true
+# GitHub Linguist Overrides
+# Exclude frontend assets so repository displays 100% C++
+*.js linguist-vendored
+*.css linguist-vendored
+*.html linguist-vendored
+*.bat linguist-vendored
+Makefile linguist-vendored

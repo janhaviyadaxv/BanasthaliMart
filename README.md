@@ -25,8 +25,8 @@ A campus marketplace system developed for students of **Banasthali Vidyapith** t
 
 ## Tech Stack
 
-- **Core Program:** C++ (Object-Oriented Programming: classes, file handling, vectors, streams, data persistence).
-- **Web Interface:** HTML5, CSS3, JavaScript (CP437 terminal theme, responsive controls, client-side storage).
+- **Language:** C++ (Object-Oriented Programming: Classes, Encapsulation, File I/O Streams, Vectors).
+- **Online Demo:** Hosted on GitHub Pages as an interactive console demo so evaluators can test the application directly in any browser without needing a local C++ compiler.
 
 ---
 
